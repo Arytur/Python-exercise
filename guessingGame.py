@@ -7,7 +7,7 @@ guess = int(input("\nGuess a number from 1 to 9: "))
 
 def guess_numb(number1, number2):
     if number1 == number2:
-        return "\n\n***Excellent! First chance and you won!***\n\n"
+        return "\n\n***Excellent! First try and you won!***\n\n"
     else:
         count = 1
         print("\nSorry, wrong number.\n\nDo you want to continue? y or n")
