@@ -3,7 +3,7 @@ def fibonacci(numbers):
     a = 0
     b = 1
     c = 1
-    for x in range(1, numbers + 1):
+    for x in range(0, numbers):
         fibonacci_list.append(c)
         c = a + b
         a = b
