@@ -1,12 +1,13 @@
 def fibonacci(numbers):
-    fibonacci_list = [1]
+    fibonacci_list = list()
     a = 0
     b = 1
+    c = 1
     for x in range(1, numbers + 1):
+        fibonacci_list.append(c)
         c = a + b
         a = b
         b = c
-        fibonacci_list.append(c)
     return fibonacci_list
 
 
