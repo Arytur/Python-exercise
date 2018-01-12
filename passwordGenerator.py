@@ -27,9 +27,6 @@ def generate_password():
             elif medium == 'y':
                 medium_rand = random.choice(string.digits)
                 password.append(medium_rand)
-            elif medium == 'z':
-                medium_rand = random.choice(string.punctuation)
-                password.append(medium_rand)
             length -= 1
     elif strength_choice == 3:
         length = 12
