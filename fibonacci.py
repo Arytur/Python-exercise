@@ -1,5 +1,5 @@
 def fibonacci(numbers):
-    fibonacci_list = list()
+    fibonacci_list = [1]
     a = 0
     b = 1
     for x in range(1, numbers + 1):
