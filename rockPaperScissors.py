@@ -1,3 +1,5 @@
+# Make a two-player Rock-Paper-Scissors game.
+
 player1 = input("\nPlayer one name:")
 player2 = input("\nPlayer two name:")
 

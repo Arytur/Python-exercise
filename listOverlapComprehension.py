@@ -1,3 +1,6 @@
+# Take two lists and write a program that returns a list
+# that contains only the elements that are common between the lists (without duplicates
+
 import random
 
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]

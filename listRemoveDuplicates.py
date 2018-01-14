@@ -1,3 +1,6 @@
+# Write a program (function!) that takes a list and returns a new list
+# that contains all the elements of the first list minus all the duplicates.
+
 def remove_duplicates(list_x):
     for item in list_x:
         check = list_x.count(item)

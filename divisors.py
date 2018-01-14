@@ -1,3 +1,6 @@
+# Create a program that asks the user for a number
+# and then prints out a list of all the divisors of that number.
+
 numb = int(input("Please tell me a number:"))
 
 x = range(2, numb + 1)
